@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cabecalho{
+    @apply flex justify-around items-center h-[4.5rem]
+}
+.cabecalho__nav a{
+    @apply text-emerald-600
+}
+.cabecalho__botao{
+    @apply text-emerald-600 uppercase font-bold border border-emerald-600 p-2 rounded-[2.5rem]
+}
+.principal{
+    @apply flex items-center justify-around
+}
+.principal__container{
+    @apply flex flex-col gap-10 items-start w-[37.8125rem]
+}
+
+.principal__titulo {
+    @apply text-sm text-emerald-600 font-bold uppercase
+}
+
+.principal__subtitulo {
+    @apply text-[3.25rem] font-bold
+}
+
+.principal__texto {
+    @apply text-lg leading-[1.6875rem]
+}
+
+.principal__botao{
+    @apply text-white bg-emerald-600 uppercase font-bold border border-emerald-600 p-2 rounded-[2.5rem]
+}
+
+
